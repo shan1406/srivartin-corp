@@ -137,16 +137,6 @@
               </div>
             </div>
           </div>
-          
-          <div style="margin-top: 2rem; padding: 1.5rem; background: var(--color-cream); border-radius: 12px;">
-            <h4 style="margin-bottom: 0.75rem;">Business Hours</h4>
-            <p style="color: var(--color-text-light); margin-bottom: 0.5rem;">
-              <strong>Monday - Saturday:</strong> 9:00 AM - 7:00 PM IST
-            </p>
-            <p style="color: var(--color-text-light); margin-bottom: 0;">
-              <strong>Sunday:</strong> Closed
-            </p>
-          </div>
         </div>
         
         <!-- Contact Form -->
@@ -156,7 +146,13 @@
             Fill out the form below and we'll get back to you within 24 hours.
           </p>
           
-          <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <!-- Web3Forms configuration -->
+            <input type="hidden" name="access_key" value="5fbcd4e9-66a5-4910-a412-761ad62566a4">
+            <input type="hidden" name="subject" value="New Contact Form Submission - Srivartin Corporation">
+            <input type="hidden" name="from_name" value="Srivartin Corporation Website">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
             <div class="grid grid-2" style="gap: 1rem;">
               <div class="form-group">
                 <label for="firstName" class="form-label">First Name *</label>
@@ -226,7 +222,7 @@
       
       <div class="map-container">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.7975611848!2d82.99947647538073!3d25.31831977758847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e0a42cb7e4b%3A0x9b0c5b8b3c2c5b6a!2sPandeypur%2C%20Varanasi%2C%20Uttar%20Pradesh%20221007!5e0!3m2!1sen!2sin!4v1706000000000!5m2!1sen!2sin" 
+          src="https://www.google.com/maps?q=G-C-K,+SA+4/79,+Punchkoshi+Road,+Om+Nagar+Colony,+Pandeypur,+Varanasi,+Uttar+Pradesh+221007&output=embed" 
           width="100%" 
           height="450" 
           style="border:0; border-radius: 16px;" 
@@ -238,7 +234,7 @@
     </div>
   </section>
 
-  <!-- Google Reviews Section -->
+  <!-- Google Reviews Section (Elfsight Widget) -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -249,123 +245,9 @@
         </p>
       </div>
       
-      <!-- Google Reviews Rating Summary -->
-      <div style="text-align: center; margin-bottom: 3rem;">
-        <div style="display: inline-flex; align-items: center; gap: 1rem; padding: 1.5rem 2.5rem; background: var(--color-white); border-radius: 16px; box-shadow: var(--shadow-md);">
-          <div>
-            <div style="font-family: var(--font-heading); font-size: 3rem; font-weight: 700; color: var(--color-primary); line-height: 1;">5.0</div>
-            <div style="display: flex; gap: 2px; justify-content: center; margin-top: 0.5rem;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#FBBC04"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#FBBC04"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#FBBC04"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#FBBC04"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#FBBC04"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            </div>
-          </div>
-          <div style="width: 1px; height: 60px; background: var(--color-border);"></div>
-          <div style="text-align: left;">
-            <div style="font-weight: 600; color: var(--color-text);">Google Reviews</div>
-            <div style="font-size: 0.875rem; color: var(--color-text-muted);">Based on customer reviews</div>
-            <a href="https://g.page/srivartin-corporation/review" target="_blank" style="font-size: 0.8125rem; color: var(--color-primary);">Write a review →</a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Individual Reviews -->
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-          </div>
-          <p class="testimonial-text">
-            "Highly satisfied with Srivartin Corporation! Their products are top-quality, and the team provides 24x7 support, ensuring smooth, reliable service every time."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">AA</div>
-            <div>
-              <div class="testimonial-name">Aditya Agrawal</div>
-              <div class="testimonial-role">Verified Google Review</div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-          </div>
-          <p class="testimonial-text">
-            "I had a good experience getting cheap and best quality products. Highly recommend them for anyone looking for agricultural exports from India."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">SK</div>
-            <div>
-              <div class="testimonial-name">Saurav Kumar</div>
-              <div class="testimonial-role">Verified Google Review</div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-          </div>
-          <p class="testimonial-text">
-            "Highly satisfied with Srivartin Corporation! Their Areca palm leaf products are top-quality, and the team provides 24x7 support, ensuring smooth, reliable service every time."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">SS</div>
-            <div>
-              <div class="testimonial-name">Shantanu Srivastava</div>
-              <div class="testimonial-role">Verified Google Review</div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-          </div>
-          <p class="testimonial-text">
-            "Amazing service and quality products. The team is very professional and responsive. Will definitely continue doing business with them."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">SK</div>
-            <div>
-              <div class="testimonial-name">Snigdh Katiyar</div>
-              <div class="testimonial-role">Verified Google Review</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Write a Review CTA -->
-      <div style="text-align: center; margin-top: 3rem;">
-        <p style="color: var(--color-text-muted); margin-bottom: 1rem;">Had a great experience with us? We'd love to hear from you!</p>
-        <a href="https://g.page/srivartin-corporation/review" target="_blank" class="btn btn-secondary">
-          Write a Google Review
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-            <polyline points="15 3 21 3 21 9"></polyline>
-            <line x1="10" y1="14" x2="21" y2="3"></line>
-          </svg>
-        </a>
-      </div>
+      <!-- Elfsight Google Reviews Widget -->
+      <script src="https://elfsightcdn.com/platform.js" async></script>
+      <div class="elfsight-app-ee876c80-ef01-4110-90b0-47271fc9a306" data-elfsight-app-lazy></div>
     </div>
   </section>
 
