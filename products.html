@@ -92,7 +92,12 @@
       <!-- 1. Fresh & Raw Agricultural Produce -->
       <div class="product-category" id="vegetables">
         <div class="product-category-header">
-          <div class="product-category-icon">🥬</div>
+          <div class="product-category-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C8 2 6 6 6 10c0 6 6 12 6 12s6-6 6-12c0-4-2-8-6-8z"/>
+              <path d="M12 6v8"/>
+            </svg>
+          </div>
           <div>
             <h2 class="product-category-title">Fresh & Raw Agricultural Produce</h2>
             <p style="color: var(--color-text-muted); margin-bottom: 0;">High-quality raw vegetables and fruits sourced from certified farms</p>
@@ -120,7 +125,24 @@
             </ul>
           </div>
           <div>
-            <img src="images/products/vegetables-large.jpg" alt="Fresh Vegetables Export" style="border-radius: 12px; box-shadow: var(--shadow-md);">
+            <img src="images/products/fruitsAndVegetables.jpg" alt="Fresh Vegetables Export" style="border-radius: 12px; box-shadow: var(--shadow-md); width: 100%; height: 300px; object-fit: cover;">
+          </div>
+        </div>
+        
+        <div class="product-items-grid" style="margin-top: 2rem;">
+          <div class="product-item">
+            <div class="product-item-image">
+              <img src="images/products/fruitsAndVegetables.jpg" alt="Fruits & Vegetables">
+            </div>
+            <div class="product-item-name">Fruits & Vegetables</div>
+            <p class="product-item-desc">Seasonal fresh produce directly from Indian farms</p>
+          </div>
+          <div class="product-item">
+            <div class="product-item-image">
+              <img src="images/products/babyCorn.jpg" alt="Baby Corn">
+            </div>
+            <div class="product-item-name">Baby Corn</div>
+            <p class="product-item-desc">Tender, sweet baby corn for culinary excellence</p>
           </div>
         </div>
       </div>
@@ -146,14 +168,18 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/basmatiRice.jpg" alt="Basmati Rice">
+            </div>
             <div class="product-item-name">Basmati Rice</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Premium long-grain aromatic rice</p>
+            <p class="product-item-desc">Premium long-grain aromatic rice with signature fragrance</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/maize.jpg" alt="Maize">
+            </div>
             <div class="product-item-name">Animal Feed Maize</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">High-quality feed grade corn</p>
+            <p class="product-item-desc">High-quality yellow corn for livestock nutrition</p>
           </div>
         </div>
       </div>
@@ -179,19 +205,25 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/kabuliChana.jpg" alt="Kabuli Chana">
+            </div>
             <div class="product-item-name">Kabuli Chana</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">White chickpeas, premium grade</p>
+            <p class="product-item-desc">Premium white chickpeas, 8-10mm size, low moisture</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/kabuliChanaBengal.jpg" alt="Bengal Gram">
+            </div>
             <div class="product-item-name">Bengal Gram (Chana)</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Desi chickpeas, high protein</p>
+            <p class="product-item-desc">Desi chickpeas, protein-rich and versatile</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/moong.jpg" alt="Moong Dal">
+            </div>
             <div class="product-item-name">Moong</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Green gram, whole & split</p>
+            <p class="product-item-desc">Green gram available whole, split & skinned</p>
           </div>
         </div>
       </div>
@@ -218,39 +250,58 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--red"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 6 6 6 10c0 6 6 12 6 12s6-6 6-12c0-4-2-8-6-8z"/></svg></div>
-            <div class="product-item-name">Chilli</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Whole & Powder, various SHU</p>
+            <div class="product-item-image">
+              <img src="images/products/redChilli.jpg" alt="Red Chilli">
+            </div>
+            <div class="product-item-name">Red Chilli</div>
+            <p class="product-item-desc">Whole dried chillies with vibrant color and bold heat</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--yellow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 6 6 6 10c0 6 6 12 6 12s6-6 6-12c0-4-2-8-6-8z"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/redChilliPowder.jpg" alt="Red Chilli Powder">
+            </div>
+            <div class="product-item-name">Chilli Powder</div>
+            <p class="product-item-desc">Ground chilli powder in various SHU grades</p>
+          </div>
+          <div class="product-item">
+            <div class="product-item-image">
+              <img src="images/products/turmericFinger.jpg" alt="Turmeric Finger">
+            </div>
             <div class="product-item-name">Turmeric</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">High curcumin content</p>
+            <p class="product-item-desc">High curcumin content, finger & powder available</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4"/></svg></div>
-            <div class="product-item-name">Cumin</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Seeds & ground, high oil</p>
+            <div class="product-item-emoji">🫚</div>
+            <div class="product-item-name">Cumin Seeds</div>
+            <p class="product-item-desc">Bold cumin with high volatile oil content</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4"/></svg></div>
-            <div class="product-item-name">Coriander</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Seeds & powder, aromatic</p>
+            <div class="product-item-image">
+              <img src="images/products/corianderSeeds.jpg" alt="Coriander Seeds">
+            </div>
+            <div class="product-item-name">Coriander Seeds</div>
+            <p class="product-item-desc">Aromatic seeds for cooking and essential oil extraction</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="12" rx="4" ry="8"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/cardamom.jpg" alt="Cardamom">
+            </div>
             <div class="product-item-name">Cardamom</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Green cardamom, premium</p>
+            <p class="product-item-desc">Queen of spices, premium green cardamom pods</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--dark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="6"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/blackPepper.jpg" alt="Black Pepper">
+            </div>
             <div class="product-item-name">Black Pepper</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Whole peppercorns</p>
+            <p class="product-item-desc">King of spices, whole peppercorns with pungent aroma</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v4c0 8-4 12-8 12S4 16 4 8V4z"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/cinnamon.jpg" alt="Cinnamon">
+            </div>
             <div class="product-item-name">Cinnamon</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Sticks & powder</p>
+            <p class="product-item-desc">Premium quality sticks and powder, sweet & warm</p>
           </div>
         </div>
       </div>
@@ -277,29 +328,39 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="6"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/frozenPeas.jpg" alt="Frozen Peas">
+            </div>
             <div class="product-item-name">Frozen Peas</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">IQF processed</p>
+            <p class="product-item-desc">IQF processed green peas, retaining fresh taste & nutrition</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--yellow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/sweetCorn.jpg" alt="Sweet Corn">
+            </div>
             <div class="product-item-name">Sweet Corn</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Frozen kernels</p>
+            <p class="product-item-desc">Premium frozen corn kernels, naturally sweet</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><path d="M12 4v4M12 16v4M8 12H4M20 12h-4"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/onionFlakes.jpg" alt="Dehydrated Onion">
+            </div>
             <div class="product-item-name">Dehydrated Onion</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Flakes, powder, granules</p>
+            <p class="product-item-desc">Flakes, powder & granules with extended shelf life</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><path d="M12 4v4M12 16v4M8 12H4M20 12h-4"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/Garlicflakes.jpg" alt="Dehydrated Garlic">
+            </div>
             <div class="product-item-name">Dehydrated Garlic</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Flakes, powder, granules</p>
+            <p class="product-item-desc">Premium garlic flakes & powder for food processing</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 2h8l2 4H6l2-4z"/><rect x="4" y="6" width="16" height="12" rx="2"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/jaggery.jpg" alt="Jaggery">
+            </div>
             <div class="product-item-name">Jaggery</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Organic & conventional</p>
+            <p class="product-item-desc">Organic & conventional, natural unrefined sweetener</p>
           </div>
         </div>
       </div>
@@ -325,19 +386,25 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/sesameSeeds.jpg" alt="Sesame Seeds">
+            </div>
             <div class="product-item-name">Sesame Seeds</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">White, black, natural</p>
+            <p class="product-item-desc">White, black & natural varieties with high oil content</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="12" rx="6" ry="8"/><path d="M6 12c0-3 2.69-5 6-5s6 2 6 5"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/groundNut.jpg" alt="Groundnut">
+            </div>
             <div class="product-item-name">Groundnut</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Bold, Java, split</p>
+            <p class="product-item-desc">Bold, Java & split peanuts for oil & consumption</p>
           </div>
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="12" rx="6" ry="8"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/castorSeeds.jpg" alt="Castor Seeds">
+            </div>
             <div class="product-item-name">Castor Seeds</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">High oil content</p>
+            <p class="product-item-desc">Premium quality seeds with high oil content</p>
           </div>
         </div>
       </div>
@@ -364,9 +431,11 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--yellow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h12l2 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8l2-5z"/><path d="M6 8h12"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/castorOil.jpg" alt="Castor Oil">
+            </div>
             <div class="product-item-name">Castor Oil</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">FSG, Commercial, Industrial</p>
+            <p class="product-item-desc">FSG, commercial & industrial grades for pharma, cosmetics & lubrication</p>
           </div>
         </div>
       </div>
@@ -395,9 +464,11 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/teaLeaves.jpg" alt="Indian Tea">
+            </div>
             <div class="product-item-name">Indian Tea</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">Assam, Darjeeling, CTC</p>
+            <p class="product-item-desc">Assam, Darjeeling & CTC varieties from finest estates</p>
           </div>
         </div>
       </div>
@@ -423,9 +494,18 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--brown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3C8 3 5 6 5 10c0 6 7 11 7 11s7-5 7-11c0-4-3-7-7-7z"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/cashew.jpg" alt="Cashew">
+            </div>
             <div class="product-item-name">Cashew</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">W180, W240, W320, splits</p>
+            <p class="product-item-desc">Premium whole and split cashews, vacuum packed</p>
+          </div>
+          <div class="product-item">
+            <div class="product-item-image">
+              <img src="images/products/resin.jpg" alt="Gum Resin">
+            </div>
+            <div class="product-item-name">Gum Resin</div>
+            <p class="product-item-desc">Natural tree resin for food and industrial applications</p>
           </div>
         </div>
       </div>
@@ -450,9 +530,11 @@
         
         <div class="product-items-grid">
           <div class="product-item">
-            <div class="product-item-icon product-item-icon--green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L12 6M12 6C9 6 7 8 7 11C7 14 9 16 12 22C15 16 17 14 17 11C17 8 15 6 12 6Z"/></svg></div>
+            <div class="product-item-image">
+              <img src="images/products/phylumHusk(isabgol).jpg" alt="Isabgol Psyllium Husk">
+            </div>
             <div class="product-item-name">Isabgol (Psyllium Husk)</div>
-            <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.5rem; margin-bottom: 0;">85%, 95%, 98% purity</p>
+            <p class="product-item-desc">Pharmaceutical grade dietary fiber, high purity</p>
           </div>
         </div>
       </div>
